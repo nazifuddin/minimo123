@@ -1,0 +1,161 @@
+/*
+@font-face{
+	src: url(../fonts/open-sans/opensans-regular.ttf);
+	font-family: opensans-regular;
+}
+@font-face{
+	src: url(../fonts/open-sans/opensans-light.ttf);
+	font-family: opensans-ligh;
+}
+@font-face{
+	src: url(../fonts/open-sans/opensans-bold.ttf);
+	font-family: opensans-bold;
+}
+@font-face{
+	src: url(../fonts/open-sans/opensans-semibold.ttf);
+	font-family: opensans-semibold;
+}
+
+
+
+
+h1{
+	font-family: opensans-light;
+}
+h2{
+	
+}*/
+
+/*common css start*/
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+
+/*common css end*/
+
+/*header start*/
+
+header {
+    padding: 20px 0;
+    /*	border: 1px solid red;*/
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+    /*	border: 1px solid red;*/
+}
+
+.logo {
+    width: 12%;
+    /*	border: 1px solid red;*/
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    /*    border: 1px solid red;*/
+    float: right;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 3px 0;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a {
+    padding: 0 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    transition: 0.33s;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.menu ul li a:hover {
+    color: #000000;
+}
+
+/*header end*/
+
+/*newsletter start*/
+
+.newsletter {
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+
+.container1 {
+    margin: 0 auto;
+    width: 80%;
+    /*	border: 1px solid red;*/
+}
+
+.signup {
+    text-align: center;
+}
+
+.s_h1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.s_form {
+    position: relative;
+    margin: 0 auto;
+    width: 386px;
+    /*    border: 1px solid red;*/
+}
+
+.s_form input {
+    padding-left: 6px;
+    padding-right: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    width: 330px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.s_form input:focus {
+    outline: 0;
+}
+
+.s_form button {
+    position: absolute;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    top: 14px;
+    right: 0;
+}
+
+.s_form button img {}
+
+/*newsletter end*/
